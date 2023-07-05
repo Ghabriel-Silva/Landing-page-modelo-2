@@ -13,16 +13,135 @@
     padding: 0;
     box-sizing:border-box;
 }
-.container-header{
-    background-image:url(Designer/imagens/mobile/image-hero.jpg);
-    
-    height:100vh;
-    width: 100vw;
-}
 body{
     background-color: rgb(207, 17, 17);
 }
-.img{
-    background-image: url(Designer/imagens/mobile/image-deep-earth.jpg);
-    color: aliceblue;
+.container-header{
+    background: url(Designer/imagens/mobile/image-hero.jpg) no-repeat;
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+}
+.container-figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center ;
+    height: 100px;
+}
+.img-logo-page{
+    height:30px;
+    margin-left:-25px;  
+}
+.menu-hamburge{
+    height:18px;
+    margin-right:-25px;
+}
+.header-div{
+    height:85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-title{
+    border: 1px solid var(--color01);
+    display: flex;
+    align-items: center;
+    height:200px;
+    width:85vw;
+    margin-bottom: 100px;
+}
+h1{
+    font-size:40px ;
+    font-family:var(--font02);
+    font-weight:300;
+    color:var(--color01);
+    padding: 25px;
+    text-align: justify;
+}
+main.container-main{
+    background-color:var(--color01);
+}
+.section-contain{
+    display: flex;
+    flex-direction: column;
+    width:85vw;
+    margin:auto;
+    background-color: aqua;
+}
+.imagem-interactive{
+    margin-top: 90px;
+    width:85vw;
+}
+.section-title-01{
+    font-family: var(--font02);
+    margin-top: 40px;
+    text-align:center;
+    font-weight:300;
+    font-size: 4.8vh;
+}
+.div-text{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.section-text{
+    font-family:var(--font01);
+    color:var(--color03);
+    font-weight:200;
+    width: 260px;
+    text-align: center;
+    font-size:14px;
+    line-height:1.8em;
+}
+.section-title-02{
+    font-family: var(--font02);
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align:center;
+    font-weight:300;
+    font-size: 4.8vh;
+    text-transform:uppercase;
+}
+.figure-container-pack{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height:auto;
+}
+.div-img-1{
+    width:85vw;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
+    background-image:url(Designer/imagens/mobile/image-deep-earth.jpg);
+}
+.img-1{
+    color: var(--color01);
+    font-family:var(--font02);
+    font-size: 30px;
+    font-weight:300;
+}
+.img-2{
+    background-image: url(Designer/imagens/mobile/image-night-arcade.jpg);
+}
+.img-3{
+    background-image: url(Designer/imagens/mobile/image-soccer-team.jpg);
+}
+.img-4{
+    background-image: url(Designer/imagens/mobile/image-grid.jpg);
+}.img-5{
+    background-image: url(Designer/imagens/mobile/image-from-above.jpg);
+}
+.img-6{
+    background-image: url(Designer/imagens/mobile/image-pocket-borealis.jpg);
+}
+.img-7{
+    background-image: url(Designer/imagens/mobile/image-curiosity.jpg)
+}
+.img-8{
+    background-image: url(Designer/imagens/mobile/image-fisheye.jpg);
 }
