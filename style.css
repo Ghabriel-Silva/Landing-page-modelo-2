@@ -67,7 +67,6 @@ main.container-main{
     flex-direction: column;
     width:85vw;
     margin:auto;
-    background-color: aqua;
 }
 .imagem-interactive{
     margin-top: 90px;
@@ -113,35 +112,54 @@ main.container-main{
 }
 .div-img-1{
     width:85vw;
+    height: 100px;
+    background-image:url(Designer/imagens/mobile/image-deep-earth.jpg);
+}
+.img-all{
     display: flex;
     flex-direction:row;
     justify-content:space-evenly;
-    align-items: center;
-    background-image:url(Designer/imagens/mobile/image-deep-earth.jpg);
-}
-.img-1{
+    align-items:center;
+    margin-top: 15px;
+    width:120px;
+    height:100px ;
     color: var(--color01);
     font-family:var(--font02);
-    font-size: 30px;
+    font-size: 25px;
     font-weight:300;
 }
-.img-2{
+.div-img-2{
+    width:85vw;
+    height: 100px;
     background-image: url(Designer/imagens/mobile/image-night-arcade.jpg);
 }
-.img-3{
+.div-img-3{
+    width:85vw;
+    height: 100px;
     background-image: url(Designer/imagens/mobile/image-soccer-team.jpg);
+
 }
-.img-4{
+.div-img-4{
+    width:85vw;
+    height: 100px;
     background-image: url(Designer/imagens/mobile/image-grid.jpg);
-}.img-5{
+}.div-img-5{
+    width:85vw;
+    height: 100px;
     background-image: url(Designer/imagens/mobile/image-from-above.jpg);
 }
-.img-6{
+.div-img-6{
+    width:85vw;
+    height: 100px;
     background-image: url(Designer/imagens/mobile/image-pocket-borealis.jpg);
 }
-.img-7{
+.div-img-7{
+    width:85vw;
+    height: 100px;
     background-image: url(Designer/imagens/mobile/image-curiosity.jpg)
 }
-.img-8{
+.div-img-8{
+    width:85vw;
+    height: 100px;
     background-image: url(Designer/imagens/mobile/image-fisheye.jpg);
 }
