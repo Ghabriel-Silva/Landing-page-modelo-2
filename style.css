@@ -47,12 +47,12 @@ body{
     border: 1px solid var(--color01);
     display: flex;
     align-items: center;
-    height:200px;
+    height:35vh;
     width:85vw;
     margin-bottom: 100px;
 }
 h1{
-    font-size:40px ;
+    font-size:11vw ;
     font-family:var(--font02);
     font-weight:300;
     color:var(--color01);
@@ -110,11 +110,7 @@ main.container-main{
     gap: 30px;
     height:auto;
 }
-.div-img-1{
-    width:85vw;
-    height: 100px;
-    background-image:url(Designer/imagens/mobile/image-deep-earth.jpg);
-}
+
 .img-all{
     display: flex;
     flex-direction:row;
@@ -122,44 +118,166 @@ main.container-main{
     align-items:center;
     margin-top: 15px;
     width:120px;
-    height:100px ;
+    height:100px;
     color: var(--color01);
     font-family:var(--font02);
     font-size: 25px;
     font-weight:300;
 }
-.div-img-2{
+.div-img-1{
     width:85vw;
-    height: 100px;
+    height: 110px;
+    background:url(Designer/imagens/mobile/image-deep-earth.jpg);
+    background-size:cover;
+}
+.div-img-1:hover{
+    height:130px;
+    transition: all 0.4s ease;
+    background-size:cover;
+}
+.div-img-2{
+    background-size:cover;
+    width:85vw;
+    height: 110px;
     background-image: url(Designer/imagens/mobile/image-night-arcade.jpg);
 }
+.div-img-2:hover{
+    height:130px;
+    transition: all 0.4s ease;
+    background-size:cover;
+}
 .div-img-3{
+    background-size:cover;
     width:85vw;
-    height: 100px;
+    height: 110px;
     background-image: url(Designer/imagens/mobile/image-soccer-team.jpg);
-
+}
+.div-img-3:hover{
+    height:130px;
+    transition: all 0.4s ease;
+    background-size:cover;
 }
 .div-img-4{
+    background-size:cover;
     width:85vw;
-    height: 100px;
+    height: 110px;
     background-image: url(Designer/imagens/mobile/image-grid.jpg);
-}.div-img-5{
+}
+.div-img-4:hover{
+    height:130px;
+    transition: all 0.4s ease;
+    background-size:cover;
+}
+.div-img-5{
+    background-size:cover;
     width:85vw;
-    height: 100px;
+    height: 110px;
     background-image: url(Designer/imagens/mobile/image-from-above.jpg);
 }
+.div-img-5:hover{
+    height:130px;
+    transition: all 0.4s ease;
+    background-size:cover;
+}
 .div-img-6{
+    background-size:cover;
     width:85vw;
-    height: 100px;
+    height: 110px;
     background-image: url(Designer/imagens/mobile/image-pocket-borealis.jpg);
 }
+.div-img-6:hover{
+    height:130px;
+    transition: all 0.4s ease;
+    background-size:cover;
+}
 .div-img-7{
+    background-size:cover;
     width:85vw;
-    height: 100px;
+    height: 110px;
     background-image: url(Designer/imagens/mobile/image-curiosity.jpg)
 }
+.div-img-7:hover{
+    height:130px;
+    transition: all 0.4s ease;
+    background-size:cover;
+}
 .div-img-8{
+    background-size:cover;
     width:85vw;
-    height: 100px;
+    height: 110px;
     background-image: url(Designer/imagens/mobile/image-fisheye.jpg);
+}
+.div-img-8:hover{
+    height:130px;
+    transition: all 0.4s ease;
+    background-size:cover;
+}
+button{
+    margin: auto;
+    margin-bottom: 60px;
+    letter-spacing: 3px;
+    background-color: transparent;
+    font-family: var(--font01);
+    font-weight: 500;
+    color: black;
+    margin-top: 30px;
+    border:1px solid black;
+    height: 40px;
+    width:130px;
+   transition: background-color 0.5s, transform 0.5s;
+}
+button:hover{
+    background-color: black;
+    color:white;
+}
+button:active{
+    transform:scale(0.9);
+    background-color: black;
+    color: white;
+}
+footer{
+    background-color: black;
+    display:flex;
+    flex-direction:column;
+}
+.div-footer-logo{
+    margin: auto;
+    padding-top:30px;
+    padding-bottom: 25px;
+}
+.footer-img{
+    height: 20px;
+}
+ul{
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+li{
+    font-family: var(--font02);
+    font-size:15px;
+    color: white;
+    font-weight: 400;
+    list-style-type:none;
+}
+.container-social-midia{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    height:100px;
+}
+.ico-social-midia{
+    height: 25px;
+}
+p.text-footer-01{
+    height:60px;
+    color: var(--color04);
+    margin: auto;
+    padding-bottom: 10px;
+    font-family:var( --font01);
+    font-size:15px;
 }
