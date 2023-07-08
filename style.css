@@ -319,10 +319,6 @@ p.text-footer-01{
     h1{
         font-size: 10vw ;
     }
-    .figure-container-pack{
-        
-
-    }
     .div-img-1, .div-img-2, .div-img-3, .div-img-4, .div-img-5, .div-img-6, .div-img-7, .div-img-8 {
         height:30vh;  
         width: 85vw ;
@@ -333,4 +329,69 @@ p.text-footer-01{
         width: 85vw; 
         transition: none;
     }
+}
+@media (max-width:1024px ) and (min-width:769px){
+.container-header{
+    background-image: url(Designer/imagens/Desktop/image-hero.jpg);
+    background-size:cover;
+}
+.container-figure{
+    display:flex;
+    justify-content: space-around;
+}
+nav{
+    display:flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    font-family:var(--font02);
+    font-size:18px;
+    font-weight:300;
+}
+.menu-hamburge{
+    display:none;
+}
+.header-title{
+   margin-left:-380px ;
+   margin-bottom:-15px ;
+}
+.header-title{
+    height:26vw;
+    width:45vw;
+}
+h1{
+    font-size: 6vw ;
+}
+.section-contain{
+    
+    display: block;position: relative;
+}
+.div-img-text{
+    background-color: aqua;
+
+
+}
+.imagem-interactive{
+    background-image: url(Designer/imagens/Desktop/image-interactive.jpg);
+    width:45vw;
+}
+.section-title-01{
+    position: absolute;
+    top:50px;
+    left:45vw;
+    width: 35vw;
+}
+.div-text{
+    position: absolute;
+    top:140px;
+    left: 45vw;
+    width: 35vw;
+    background-color: rgb(255, 255, 255);
+}
+.section-text{
+   
+}
 }
