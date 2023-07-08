@@ -29,6 +29,9 @@ body{
     align-items:center ;
     height: 100px;
 }
+nav{
+    display: none;
+}
 .img-logo-page{
     height:30px;
     margin-left:-25px;  
@@ -47,7 +50,7 @@ body{
     border: 1px solid var(--color01);
     display: flex;
     align-items: center;
-    height:35vh;
+    height:40vh;
     width:85vw;
     margin-bottom: 100px;
 }
@@ -280,4 +283,54 @@ p.text-footer-01{
     padding-bottom: 10px;
     font-family:var( --font01);
     font-size:15px;
+}
+@media (max-width:768px) and (min-width:470px){
+    .container-header{
+        background-image:url(Designer/imagens/Desktop/image-hero.jpg);
+        width: 100vw;
+       
+    }
+    .container-figure{
+        display:flex;
+        flex-direction:column;
+        height: 20vh;
+    }
+    .menu-hamburge{
+        display:none;
+    }
+    .img-logo-page{
+        height: 40px;
+    }
+    nav{
+       display:flex;
+       gap:20px;
+    }
+    nav a{
+        color:white;
+        text-decoration:none;
+        font-family:var(--font02);
+        font-size:18px;
+        font-weight:300;
+    }
+    .header-title{
+        height:45vw;
+        width:75vw;
+    }
+    h1{
+        font-size: 10vw ;
+    }
+    .figure-container-pack{
+        
+
+    }
+    .div-img-1, .div-img-2, .div-img-3, .div-img-4, .div-img-5, .div-img-6, .div-img-7, .div-img-8 {
+        height:30vh;  
+        width: 85vw ;
+
+    }
+    .div-img-1:hover, .div-img-2:hover, .div-img-3:hover, .div-img-4:hover, .div-img-5:hover, .div-img-6:hover, .div-img-7:hover, .div-img-8:hover {
+        height:30vh;
+        width: 85vw; 
+        transition: none;
+    }
 }
