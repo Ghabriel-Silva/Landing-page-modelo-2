@@ -391,7 +391,42 @@ h1{
     width: 35vw;
     background-color: rgb(255, 255, 255);
 }
-.section-text{
-   
+.div-img-1{
+    background-image: url(Designer/imagens/Desktop/image-deep-earth.jpg);
+    max-width: 100%
+}
+.div-img-2{
+    background-image: url(Designer/imagens/Desktop/image-night-arcade.jpg);
+}
+.div-img-3{
+    background-image: url(Designer/imagens/Desktop/image-soccer-team.jpg);
+}
+.div-img-4{
+    background-image: url(Designer/imagens/Desktop/image-grid.jpg );
+}
+.div-img-5{
+    background-image: url(Designer/imagens/Desktop/image-from-above.jpg);
+}
+.div-img-6{
+    background-image: url(Designer/imagens/Desktop/image-pocket-borealis.jpg);
+}
+.div-img-7{
+    background-image: url(Designer/imagens/Desktop/image-curiosity.jpg);
+}
+.div-img-8{
+    background-image: url(Designer/imagens/Desktop/image-fisheye.jpg);
+}
+.div-img-1, .div-img-2, .div-img-3, .div-img-4, .div-img-5, .div-img-6, .div-img-7, .div-img-8 {
+   height: 400px;
+   width:200px;
+}
+.div-img-1:hover, .div-img-2:hover, .div-img-3:hover, .div-img-4:hover, .div-img-5:hover, .div-img-6:hover, .div-img-7:hover, .div-img-8:hover{
+    height:420px;
+}
+
+.figure-container-pack{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    height: auto;
 }
 }
